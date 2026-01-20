@@ -13,13 +13,8 @@ header {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background: $gradient;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 3.5rem;
-    font-weight: 700;
-    color: white;
+    object-fit: cover;
+    border: 4px solid rgba($primary, 0.5);
     box-shadow: 0 0 60px rgba($primary, 0.3);
     animation: float 6s ease-in-out infinite;
 }
